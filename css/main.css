@@ -1,0 +1,92 @@
+:root {
+    --accent: orange;
+    --text: #333;
+    --regular-text: 16px;
+    --lineheight: 1.65;
+    --userfont: roboto-st, sans-serif;
+    --systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+@font-face {
+    src: url("../fonts/roboto-regular-webfont.woff2") format("woff2");
+    font-family: "roboto-st";
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("../fonts/roboto-italic-webfont.woff2") format("woff2");
+    font-family: "roboto-st";
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("../fonts/roboto-bold-webfont.woff2") format("woff2");
+    font-family: "roboto-st";
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2");
+    font-family: "roboto-st";
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    font-family: var(--userfont);
+    font-size: var(--regular-text);
+    line-height: var(--lineheight);
+    color: var(--text);
+    min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+button {
+    padding: 10px 19px;
+    background-color: #333333;
+    color: #e8e8e8;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid #6d6d6d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 6px 12px -2px, rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+
+button:hover {
+    background-color: #3d3b3b;
+}
+
+button:active {
+    transform: scale(102%);
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #3c1053, #ad5389);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    padding: 25px;
+    color: #e8e8e8;
+    background-color: rgb(95 71 143 / 0.13);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 20px 30px;
+}
+
+
