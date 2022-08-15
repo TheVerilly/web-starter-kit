@@ -80,10 +80,11 @@ button:hover {
     height: 80%;
     border-radius: 15px;
     padding: 25px;
-    color: #e8e8e8;
-    background-color: #e6e6e60d;
+    color: #eaeaea;
+    background-color: #b9b9b90f;
     box-shadow: rgba(0, 0, 0, 0.2) 0 20px 30px;
     border: 1px solid rgba(152, 135, 182, 0.13);
+    text-align: center;
 }
 
 
